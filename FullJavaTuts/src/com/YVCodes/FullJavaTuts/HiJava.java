@@ -1,8 +1,13 @@
 package com.YVCodes.FullJavaTuts;
 
 public class HiJava {
+	
 
-	public void nonStaticFn() {
+	public HiJava() {
+		super();
+		System.out.println("In Constructor");
+	}
+	void nonStaticFn() {
 		System.out.println("This is a Non Static Method");
 		
 	}
@@ -12,10 +17,10 @@ public class HiJava {
 	}
 	public static void main(String[] args) {
 
-		System.out.println("Hi Java this is YV");
+		System.out.println("Hi Java, this is YV");
+		staticFn();
 		HiJava hijavaObj=new HiJava();
 		hijavaObj.nonStaticFn();
-		staticFn();
 
 	}
 
