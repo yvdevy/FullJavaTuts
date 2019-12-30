@@ -1,0 +1,13 @@
+<?XML version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Employees SYSTEM "EmployeeTYpe.dtd">
+<Employees>
+	<Employee eid="1" lang="java">
+		<name>Name1</name>
+		<salary>30000</salary>
+	</Employee>
+	<Employee eid="2" lang="Python">
+		<name>Name2</name>
+		<salary>40000</salary>
+	</Employee>
+</Employees>
