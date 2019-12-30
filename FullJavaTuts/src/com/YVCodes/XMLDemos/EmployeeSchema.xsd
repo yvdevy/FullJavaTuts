@@ -19,4 +19,9 @@
 </complexType>
 
 	<element name="globalEmployee" type="tns:EmployeeType"/>
+	<simpleType name="mySal">
+		<restriction base="integer">
+			<minIclusive value="30000"></minInclusive>
+		</restriction>
+	</simpleType>
 </schema>

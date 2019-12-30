@@ -8,7 +8,7 @@
 					</tns:Employee>
 					<tns:Employee eid="2">
 						<tns:name>Name2</tns:name>
-						<tns:salary>40000</tns:salary>
+						<tns:salary>60000</tns:salary>
 					</tns:Employee>
 					
 </tns:globalEmployee>
